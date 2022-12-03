@@ -1,0 +1,18 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxt/test-utils-edge": "^3.0.1-rc.0-27833302.52421a9",
+    "nuxt": "3.0.0",
+    "vitest": "^0.25.3"
+  },
+  "dependencies": {
+    "nuxt-typed-router": "^1.2.3"
+  }
+}
